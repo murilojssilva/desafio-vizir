@@ -1,18 +1,14 @@
 # :rocket: Desafio Vizir
 
-<p align="center">Segundo desafio do Capítilo I do Bootcamp Ignite, na trilha React, ministrado pela <a href="https://github.com/rocketseat">Rocketseat</a>. Ele consiste em separar o código responsável pela sidebar e do content da aplicação em 2 componentes diferentes. Com isso, foi explorado o conceito de Contextos, que são responsáveis por realizar as operações da aplicação e podem ser utilizados por diversos componentes.</p>
+<p align="center">Desafio proposto pela empresa <a href="https://vizir.com.br/">Vizir</a>. Ele consiste em demonstrar aos clientes as vantagens de se utilizar os serviços FaleMais da empresa Telzir.</p>
 
 ---
 
-### :pushpin: Conteúdo
+### :link: Deploy
 
-<p align="center">
-	<a href="#pre-requisitos">Pré-requisitos</a> |
-	<a href="#funcionalidades">Funcionalidades</a> | 
-	<a href="#screenshots">Screenshots</a> | 
-	<a href="#executando-a-aplicacao">Executando a aplicação</a> | 
-	<a href="#servidor">Servidor</a> | 
-	<a href="#tecnologias">Tecnologias</a> | 
+<p>
+	Para acessar o deploy da aplicação na plataforma da <a href="https://vercel.com/">Vercel</a>, visite
+	<a href="https://murilosilva-desafio-vizir.vercel.app/">https://murilosilva-desafio-vizir.vercel.app/</a>
 </p>
 
 ---
@@ -27,16 +23,16 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ### :hammer: Funcionalidades
 
-- [x] Separar em componentes
-- [x] Criação do contexto
-- [x] Transformação do contexto em Hook
+- [x] Criação e busca em uma API
+- [x] Utilização de estados e propriedades
+- [x] Utilização do SASS
 
 ---
 
 ### :framed_picture: Screenshots
 
 <p align="center">
-	<img alt="homepage" src="./src/assets/homepage.png" />
+	<img alt="application" src="./public/application.png" />
 </p>
 
 ---
@@ -52,7 +48,7 @@ $ git clone <https://github.com/murilojssilva/01-desafio-ignite>
 #### Instale as dependêmcias
 
 ```shell
-$ yarn add
+$ yarn
 ```
 
 #### Execute a aplicação em modo de desenvolvimento
@@ -61,18 +57,7 @@ $ yarn add
 $ yarn dev
 ```
 
-#### A aplicação iniciará na porta:8080 - acesse <http://localhost:8080>
-
----
-
-## :game_die: Servidor
-
-O servidor da aplicação foi construído utilizando JSON Server.
-Para rodar a aplicação em seu diretório, basta digitar:
-
-### `yarn server`
-
-O servidor estará rodando na porta:3333
+#### A aplicação iniciará na porta:3002 - acesse <http://localhost:3002>
 
 ---
 
@@ -82,7 +67,8 @@ As seguintes ferramentas foram usadas na construção da aplicação:
 
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-
+- [Vercel](https://vercel.com/)
+- [NextJS](https://nextjs.org/)
 ---
 
 <h4 align="center">Feito com :black_heart: por <a href="https://github.com/murilojssilva">Murilo</a></h4>
