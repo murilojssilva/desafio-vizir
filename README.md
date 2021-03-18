@@ -1,34 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# :rocket: Desafio Vizir
 
-## Getting Started
+<p align="center">Segundo desafio do Capítilo I do Bootcamp Ignite, na trilha React, ministrado pela <a href="https://github.com/rocketseat">Rocketseat</a>. Ele consiste em separar o código responsável pela sidebar e do content da aplicação em 2 componentes diferentes. Com isso, foi explorado o conceito de Contextos, que são responsáveis por realizar as operações da aplicação e podem ser utilizados por diversos componentes.</p>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
+### :pushpin: Conteúdo
+
+<p align="center">
+	<a href="#pre-requisitos">Pré-requisitos</a> |
+	<a href="#funcionalidades">Funcionalidades</a> | 
+	<a href="#screenshots">Screenshots</a> | 
+	<a href="#executando-a-aplicacao">Executando a aplicação</a> | 
+	<a href="#servidor">Servidor</a> | 
+	<a href="#tecnologias">Tecnologias</a> | 
+</p>
+
+---
+
+### :gear: Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+---
+
+### :hammer: Funcionalidades
+
+- [x] Separar em componentes
+- [x] Criação do contexto
+- [x] Transformação do contexto em Hook
+
+---
+
+### :framed_picture: Screenshots
+
+<p align="center">
+	<img alt="homepage" src="./src/assets/homepage.png" />
+</p>
+
+---
+
+### :rocket: Executando a aplicação
+
+#### Clone do repositório
+
+```shell
+$ git clone <https://github.com/murilojssilva/01-desafio-ignite>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Instale as dependêmcias
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```shell
+$ yarn add
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+#### Execute a aplicação em modo de desenvolvimento
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```shell
+$ yarn dev
+```
 
-## Learn More
+#### A aplicação iniciará na porta:8080 - acesse <http://localhost:8080>
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## :game_die: Servidor
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+O servidor da aplicação foi construído utilizando JSON Server.
+Para rodar a aplicação em seu diretório, basta digitar:
 
-## Deploy on Vercel
+### `yarn server`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+O servidor estará rodando na porta:3333
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+### :computer: Tecnologias
+
+As seguintes ferramentas foram usadas na construção da aplicação:
+
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+---
+
+<h4 align="center">Feito com :black_heart: por <a href="https://github.com/murilojssilva">Murilo</a></h4>

@@ -5,7 +5,6 @@ export function Header() {
 		<div className={styles.headerContainer}>
 			<div>
 				<h1>Desafio <span>vizir</span></h1>
-				<button></button>
 			</div>
 		</div>
 	)
