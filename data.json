@@ -1,0 +1,25 @@
+[{
+		"origin": "011",
+		"destiny": "016",
+		"time": 20,
+		"plain": "FaleMais 30"
+	},
+	{
+		"origin": "011",
+		"destiny": "017",
+		"time": 80,
+		"plain": "FaleMais 60"
+	},
+	{
+		"origin": "018",
+		"destiny": "011",
+		"time": 200,
+		"plain": "FaleMais 120"
+	},
+	{
+		"origin": "018",
+		"destiny": "017",
+		"time": 100,
+		"plain": "FaleMais 30"
+	}
+]
